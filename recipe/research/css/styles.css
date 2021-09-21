@@ -1,0 +1,33 @@
+html {
+   margin: 7%; 
+   font-family: 'Montserrat', sans-serif;
+   margin-right: 20%;
+   color:rgb(175, 110, 45);
+}
+
+.title {
+    font-family: 'Staatliches', cursive;
+    font-size: 5em;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+}
+
+.subtitle {
+    margin-top: -5%;
+}
+
+body {
+    background-color:moccasin;
+}
+
+img {
+    width: 30%;
+}
