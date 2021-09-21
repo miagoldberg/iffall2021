@@ -1,0 +1,100 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    color:rgb(82, 78, 78);
+    font-size: 20px;
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+body {
+    margin: 7%;
+    background-color:mintcream;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: -2.5%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+p {
+    margin-top: -1.5%;
+}
+
+.threeHundred {
+    font-weight: 300;
+}
+
+.sixHundred {
+    font-weight: 600;
+}
+
+.eightHundred {
+    font-weight: 800;
+}
+
+.caption {
+    font-weight: 500;
+    color:tomato;
+    font-size: 18px;
+    text-indent: 1rem;
+    margin-top: 1%;
+
+}
+
+.normal {
+    font-style:normal;
+    letter-spacing:normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.moreSpace {
+    letter-spacing: 2px;
+}
+
+.lessSpace {
+    letter-spacing: -1px;
+}
+
+.uppercase {
+    text-transform:uppercase;
+}
+
+.lowercase {
+    text-transform:lowercase;
+}
+
+.capitalize {
+    text-transform:capitalize;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.lineThrough {
+    text-decoration:line-through;
+}
+
+
+
+
