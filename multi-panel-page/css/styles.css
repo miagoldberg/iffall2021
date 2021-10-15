@@ -1,0 +1,132 @@
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+    padding-bottom: 38px
+    
+}
+
+header {
+    background-color: rgba(255, 0, 0, .3);
+    text-align: center;
+    height: 480px;
+    background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/horizontal-lines-photography-3.jpg?w=1500&ssl=1)
+
+
+}
+
+header .content {
+    padding: 152px 0 148px 0;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+
+}
+
+h2 {
+    font-size: 30px; 
+    margin: 0;
+    margin-top: -3px;
+}
+
+section h1 {
+    font-size: 40px;
+    padding: 40px 0 15px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6rem;
+    
+}
+
+.one img {
+    float: right;
+    margin: 19px 0 40px 40px;
+
+}
+
+.grid li {
+    display:inline-block;
+}
+
+.two img {
+    float: left;
+    margin: 0 12px 24px 0;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.two p {
+
+margin-top: -11px;
+margin-right: 30px;
+
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+.three h1 {
+    padding: 28px 0 32px 0;
+}
+
+.three p {
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 0px; 
+    margin-left: 126px;
+    margin-right: 126px;
+    letter-spacing: 0.35px;
+}
+
+footer {
+    margin-left: 162px;
+    margin-top: 80px;
+}
+
+.full-size {
+    width: 920;
+    margin-top: 0;
+}
+
+.one {
+    background-color:cornsilk;
+}
+
+.two {
+    background-color:darkgoldenrod;
+}
+
+.three {
+    background-color:gainsboro;
+}
+
+
+
+
+
+
+
