@@ -1,0 +1,301 @@
+#btn_samsung {
+    display:block;
+    margin:auto;
+width: 100px;
+height: 50px;
+}
+
+#btn_oldnavy {
+    font-family: futura-pt-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+display: inline-block;
+font-size: 40px;
+text-decoration: none;
+margin-top: 100px;
+color: #003c69;
+}
+
+#btn_oldnavy:hover {
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 3px solid #003c69;
+    color: white;
+    background-color: #003c69;
+    padding: 10px 40px 10px 40px;
+    transition: 0.5s;
+}
+
+#btn_michaelkors {
+    font-family: proxima-nova, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+display: inline-block;
+font-size: 30px;
+text-decoration: none;
+margin-top: 100px;
+color: black;
+box-sizing: border-box;
+border-radius: 50px;
+border-style: solid;
+padding: 10px 40px 10px 40px;
+
+}
+
+#btn_michaelkors span {
+    color: white;
+    font-family: proxima-nova, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+display: block;
+font-size: 20px;
+text-decoration: none;
+margin-top: 0px;
+}
+
+
+
+#btn_michaelkors:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+#btn_nike {
+    font-family: futura-pt-condensed, sans-serif;
+font-weight: 700;
+font-style: italic;
+text-decoration: none;
+margin-top: 100px;
+font-size: 50px;
+display: inline-block;
+color: greenyellow;
+}
+
+#btn_nike:hover {
+    letter-spacing: 20px;
+    transition: .5s;
+}
+
+#btn_lyft img{
+    width: 100px;
+    margin-top: 100px;
+}
+
+#btn_lyft img:hover {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+#btn_tesla img {
+    width: 150px;
+    margin-top: 70px;
+}
+
+#btn_tesla img:hover {
+    width: 200px;
+    transition: .5s;
+}
+
+#btn_apple img {
+    width: 200px;
+    margin-top: 60px;
+}
+
+#btn_apple img:hover {
+    opacity: 50%;
+    transition: .5s;
+}
+
+#btn_cocacola img {
+    width: 200px;
+    margin-top: 60px;
+}
+
+#btn_cocacola span img{
+margin-top: 50px;
+}
+
+#btn_cocacola span img:hover {
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+#btn_harley img {
+    margin-top: 30px;
+    width: 200px;
+}
+
+#btn_harley img:hover {
+    transform: rotateY(180deg);
+    transition: .5s;
+}
+
+#btn_samsung {
+    font-family: Helvetica, sans-serif;
+    font-weight:800;
+    text-decoration: none;
+    margin-top: 100px;
+    font-size: 30px;
+    color: #024ea2;
+    margin-left: 45px;
+}
+
+#btn_samsung:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px 0 #024ea2;
+    padding-right: 60px;
+
+}
+
+#btn_cn img {
+    width: 100px;
+    margin-top: 100px;
+}
+
+#btn_cn img:hover {
+    width: 130px;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+#btn_npr img {
+    width: 130px;
+    margin-top: 100px;
+}
+
+#btn_npr img:hover {
+    box-shadow: 0 10px 0 0 black;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+#btn_newyorker img {
+    width: 150px;
+    margin-top: 100px;
+}
+
+#btn_newyorker img:hover {
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+    transition: .5s;
+}
+
+#btn_instagram img {
+    width: 100px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#btn_instagram span img {
+    position: relative;
+    opacity: 0%;
+
+}
+
+#btn_instagram span img:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+#btn_nerf img {
+    width: 150px;
+    margin-top: 100px;
+}
+
+#btn_nerf img:hover {
+    transform: rotate(360deg);
+    transition: .5s;
+
+}
+
+#btn_ibm img {
+    width: 150px;
+    margin-top: 100px;
+}
+
+#btn_ibm img:hover {
+    box-shadow: 0px 0px 5px 5px orange;
+    padding: 5px;
+    transition: .5s;
+}
+
+#btn_facebook img {
+    width: 150px;
+    margin-top: 100px;
+}
+
+#btn_facebook img:hover {
+    transform:scale(.5, .5);
+    transition: .5s;
+}
+
+#btn_fitbit {
+    font-family: Helvetica, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
+    display: inline-block;
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: 100px;
+    color: darkgrey;
+    word-spacing: 0px;
+}
+
+#btn_fitbit:hover {
+    word-spacing: 20px;
+    transition: .5s;
+}
+
+#btn_tonight img {
+    width: 150px;
+    margin-top: 50px;
+}
+
+#btn_tonight img:hover {
+    transform: rotate(90deg);
+    width: 190px;
+    transition:.5s;
+}
+
+#btn_army img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+#btn_army img:hover {
+    width: 200px;
+    transition: .5s;
+}
+
+#btn_hsn {
+    font-family: Helvetica, sans-serif;
+
+    font-weight: 200;
+    
+    font-style: normal;
+    display: inline-block;
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: 100px;
+    color:darkslateblue
+}
+
+#btn_hsn:hover {
+    font-weight: 700;
+    transition: .5s;
+    color:darkviolet;
+    font-size: 50px;
+}
+
+
+
