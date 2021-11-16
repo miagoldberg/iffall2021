@@ -1,0 +1,197 @@
+.nav-bar {
+    background-color: #FAEAB4;
+    position: sticky;
+    width: 1440px;
+    height: 177px;
+}
+
+.gg-logo {
+    position: absolute;
+    width: 315px;
+    height: 122px;
+    left: 38px;
+    top: 33px;
+}
+
+.category {
+    position: relative;
+    display: inline;
+    top: 88px;
+    left: 400px;
+    padding-left: 80px;
+}
+
+html {
+    background-color: #FFFCF2;
+}
+
+.nav-bar-border {
+    width: 1440px;
+    height: 8px;
+    position: absolute;
+    top: 174px;
+    background-color: #FFAE03;
+}
+
+.seasons-picture {
+    width: 512.65px;
+    height: 572.42px;
+    position: absolute;
+    left: 192px;
+    top: 283.01px;
+}
+
+.cast-picture {
+    position: absolute;
+    left: 573.04px;
+top: 239px;
+}
+
+.production-picture {
+    left: 668.01px;
+top: 672.16px;
+position: absolute;
+z-index: -1;
+}
+
+.reception-picture {
+    left: 237.17px;
+top: 738.17px;
+position: absolute;
+}
+
+.sources-picture {
+    left: 724.76px;
+top: 948.96px;
+position: absolute;
+}
+
+.seasons-picture:hover {
+    transform:rotate(20deg);
+    transition: .5s;
+}
+
+.seasons-text {
+    position: absolute; 
+    left: 428.27px;
+top: 750.6px;
+transform: rotate(-12.6deg);
+font-size: 36px;
+}
+
+.cast-text {
+    position: absolute; 
+    font-size: 36px;
+    left: 936.32px;
+    top: 574.87px;
+    transform: rotate(0.85deg);
+}
+
+.production-text {
+    position: absolute;
+    font-size: 36px;
+    left: 728.58px;
+top: 836.13px;
+transform: rotate(0.85deg);
+}
+
+.reception-text {
+    position: absolute;
+    font-size: 36px;
+    left: 420.79px;
+top: 1160.53px;
+transform: rotate(18.86deg);
+}
+
+.sources-text {
+    position: absolute;
+    font-size: 36px;
+    left: 941.34px;
+top: 1216.66px;
+transform: rotate(-12.3deg);
+}
+
+.description-text {
+    position: absolute;
+    font-size: 24px;
+    left: 173px;
+top: 1395px;
+}
+
+.seasons-spacer {
+    height: 85px;
+    width: auto;
+}
+
+.seasons-container {
+    height: 530px;
+    width: 1440px;
+    position: relative;
+}
+
+.season-title {
+    left: 540px;
+    position: absolute;
+}
+
+.season-photo {
+    position: absolute;
+    width: 376px;
+height: 530px;
+left: 91px;
+}
+
+.season-underline {
+    position: absolute;
+width: 1440px;
+height: 4px;
+left: 0px;
+background-color: #8E201F;
+top: 28px;
+z-index:-1;
+
+}
+
+.season-body {
+    position: absolute;
+    left: 540px;
+    top: 38px;
+}
+
+.actor-photo {
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+}
+.actor-name {
+    margin-left: 40px;
+}
+
+.character-description {
+    margin-left: 40px;
+    width: 300px;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 40px;
+}
+
+.cast-list {
+    margin-top: 200px;
+}
+
+.production-section-container {
+    height: 200px;
+    width: 1440px;
+    position: relative;
+}
+
+.reception-section-container {
+    height: 200px;
+    width: 1440px;
+    position: relative;
+}
+
+
