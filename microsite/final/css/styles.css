@@ -1,0 +1,413 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+
+.nav-bar {
+    background-color: #FAEAB4;
+    position: sticky;
+    min-width: 100%;
+    height: 177px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gg-logo {
+    position: relative;
+    width: 315px;
+    height: 122px;
+    top: 33px;
+}
+
+.category {
+    position: relative;
+    display: inline;
+    top: 88px;
+    font-family: Raleway;
+font-weight: 600;
+color: #8E201F;
+text-decoration: none;
+
+
+
+}
+
+/* .nav-bar li {
+    flex: 1;
+} */
+
+.category:hover {
+    color: #3b0908;
+    transition: .5s;
+}
+
+html {
+    background-color: #FFFCF2;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-border {
+    width: 100%;
+    height: 8px;
+    position: absolute;
+    top: 174px;
+    background-color: #FFAE03;
+}
+
+.seasons-picture {
+    width: 512.65px;
+    height: 572.42px;
+    position: absolute;
+    left: 50px;
+    top: 283.01px;
+}
+
+.cast-picture {
+    position: absolute;
+    left: 400px;
+top: 239px;
+}
+
+.production-picture {
+    left: 500px;
+top: 672.16px;
+position: absolute;
+z-index: -1;
+}
+
+.production-picture:hover {
+    transform:rotate(30deg);
+    transition: .5s;
+}
+
+.reception-picture {
+    left: 50px;
+top: 738.17px;
+position: absolute;
+}
+
+.reception-picture:hover {
+    transform:rotate(-35deg);
+    transition: .5s;
+}
+
+.sources-picture {
+    left: 500px;
+top: 948.96px;
+position: absolute;
+}
+
+.sources-picture:hover {
+    transform:rotate(25deg);
+    transition: .5s;
+}
+
+.seasons-picture:hover {
+    transform:rotate(20deg);
+    transition: .5s;
+}
+
+
+.cast-picture:hover {
+    transform:rotate(-25deg);
+    transition: .5s;
+}
+
+
+
+.description-text {
+    position: absolute;
+    font-size: 24px;
+    left: 25%;
+top: 1395px;
+font-family: Raleway;
+font-weight: 500px;
+font-size: 15px;
+color: #8E201F;
+width: 50%;
+padding-bottom: 30px;
+}
+
+.seasons-spacer {
+    height: 85px;
+    width: auto;
+}
+
+.seasons-container {
+    /* height: 530px; */
+    width: 100%;
+    position: relative;
+
+}
+
+.season-title {
+    position: relative;
+    font-family: "Satisfy";
+    font-size: 25px;
+    color: #8E201F;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.season-photo {
+    position: relative;
+    width: 376px;
+height: 530px;
+/* float: left; */
+margin-left: 25%;
+
+}
+
+
+.season-underline {
+    position: relative;
+width: 100%;
+height: 4px;
+left: 0px;
+background-color: #8E201F;
+top: 28px;
+z-index:-1;
+
+}
+
+.season-body {
+    position: relative;
+    top: 70px;
+    font-family: Raleway;
+font-weight: 500px;
+color: #8E201F;
+font-size: 15px;
+width: 80%;
+margin-left: 40px;
+
+
+}
+
+.actor-photo {
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+}
+.actor-name {
+    margin-left: 40px;
+    font-family: Raleway;
+    font-weight: 800;
+    color: #8E201F;
+    font-size: 15px;
+}
+
+.character-description {
+    margin-left: 40px;
+    width: 300px;
+    font-family: Raleway;
+    font-weight: 500;
+    color: #8E201F;
+    font-size: 15px;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 40px;
+}
+
+.cast-list {
+    margin-top: 200px;
+}
+
+.production-section-container {
+    /* height: 200px; */
+    width: 100%;
+    position: relative;
+}
+
+.reception-section-container {
+    /* height: 200px; */
+    width: 100%;
+    position: relative;
+}
+
+.production-section-title {
+    font-family: Raleway;
+    font-weight: 800;
+    color: #8E201F;
+    font-size: 15px;
+}
+
+.production-section-body {
+    font-family: Raleway;
+    font-weight: 500;
+    color: #8E201F;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.reception-section-title {
+    font-family: Raleway;
+    font-weight: 800;
+    color: #8E201F;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.reception-section-body {
+    font-family: Raleway;
+    font-weight: 500;
+    color: #8E201F;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+@media (max-width:800px) {
+    .nav-bar {
+
+        display: grid;
+
+        
+    }
+
+    .category {
+        top: -100px;
+        left: 200px;
+        
+    }
+
+    .gg-logo {
+        left: -100px;
+        transform: scale(0.7);
+    }
+
+    .seasons-picture {
+        transform: scale(0.7);
+        left: 0%;
+    }
+
+    .seasons-picture:hover {
+        transform: scale(0.7);
+
+
+
+    }
+    .cast-picture {
+        transform: scale(0.7);
+        left: 0%;
+        top: 600px;
+    }
+
+    .cast-picture:hover {
+        transform: scale(0.7);
+
+
+}
+
+.production-picture {
+    transform: scale(0.7);
+    left: 0%;
+    top: 900px;
+}
+
+.production-picture:hover {
+    transform: scale(0.7);
+
+
+}
+
+.reception-picture {
+    transform: scale(0.7);
+    left: 0%;
+    top: 1050px;
+}
+
+.reception-picture:hover {
+    transform: scale(0.7);
+
+
+}
+.sources-picture {
+    transform: scale(0.7);
+    left: 0%;
+    top: 1400px;
+}
+
+.sources-picture:hover {
+    transform: scale(0.7);
+
+
+}
+
+.description-text {
+    top: 1800px;
+}
+
+.season-photo {
+    width: 263.2px;
+    height: 371px;
+    margin-left: 0;
+}
+}
+
+
+.cast-list {
+    margin-top: 50px;
+}
+
+.sources-text {
+    font-family: Raleway;
+    font-weight: 500;
+    color: #8E201F;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+@media (max-width: 400px) {
+    .gg-logo {
+        transform: scale(0.5);
+        left: -70px;
+    }
+
+    .seasons-picture {
+        transform: scale(0.5);
+        left: -75px;
+        top: 70px;
+    }
+
+    .cast-picture {
+        transform: scale(0.5);
+        left: -120px;
+        top: 300px;
+    }
+
+    .production-picture {
+        transform: scale(0.5);
+        left: -100px;
+        top: 550px;
+    }
+
+    .reception-picture {
+        transform: scale(0.5);
+        left: -150px;
+        top: 620px;
+    }
+
+    .sources-picture {
+        transform: scale(0.5);
+        left: -110px;
+        top: 900px;
+    }
+
+    .description-text {
+        top: 1250px;
+    }
+}
+
+
