@@ -239,6 +239,7 @@ li {
     font-weight: 800;
     color: #8E201F;
     font-size: 15px;
+    margin-left: 30px;
 }
 
 .production-section-body {
@@ -247,6 +248,7 @@ li {
     color: #8E201F;
     font-size: 15px;
     margin-right: 30px;
+    margin-left: 30px;
 }
 
 .reception-section-title {
